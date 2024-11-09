@@ -37,7 +37,7 @@ with st.sidebar.header('1.Upload your CSV data'):
 
 #Pandas Profiling Report
 if uploaded_file is not None:
-    @st.cache
+    @st.cache_data
     
 # In Streamlit, the @st.cache decorator is used to cache the output of a function, so that when the function is called with the same inputs, the results are reused rather than recalculated. This is especially useful when working with operations that are computationally expensive or time-consuming, such as loading large datasets or running complex computations.
 

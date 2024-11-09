@@ -16,6 +16,8 @@ with open(r'C:\Users\HP\OneDrive\Desktop\Streamlit\HospitalManagement\views\mode
 
 #the below code is to upload the image
 with st.sidebar.header('Upload your Image in JPEG format'):
+    # the below code is applicable if you want to upload the images from sidebar
+   
     up_f=st.sidebar.file_uploader("Upload the image")
 
 
